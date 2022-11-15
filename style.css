@@ -1,0 +1,22 @@
+:root{
+    font-family: sans-serif;
+    text-align: center;
+    color:beige;
+    background-color: #222;
+}
+textarea{
+    font-family: sans-serif;
+    font-size: large;
+    background-color: #222;
+    border: 2px solid beige;
+    border-radius: 8px;
+    color:beige;
+    resize: none;
+    width: 35vw;
+    height: 45vh;
+}
+button{
+    background-color: beige;
+    width: 5vw;
+    height: 3vw;
+}
