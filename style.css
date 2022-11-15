@@ -16,7 +16,11 @@ textarea{
     height: 45vh;
 }
 button{
+    font-size: x-large;
+    font-weight: bold;
     background-color: beige;
-    width: 5vw;
-    height: 3vw;
+    color:#222;
+    min-width: 5vw;
+    min-height: 3vw;
+    border-radius: 10px;
 }
