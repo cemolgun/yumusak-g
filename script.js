@@ -96,8 +96,12 @@ function delete_a(){
     a_box.value="";
 }
 function copy_g(){
+    g_box.select();
+    g_box.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(g_box.value);
 }
 function copy_a(){
+    a_box.select();
+    a_box.setSelectionRange(0, 99999999);
     navigator.clipboard.writeText(a_box.value);
 }
