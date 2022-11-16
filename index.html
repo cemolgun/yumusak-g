@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ĞğĞĞ ğğĞ ĞĞ ğğĞ ğğğ ğĞ ĞğĞ  ĞĞğ</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48
+            }
+    </style>
+
 </head>
 <body>
     <header><h1>ĞĞğ&nbsp; Ğ ğĞğ ğĞ Ğğ ğğğ ğĞğğ ğĞ Ğ ĞĞĞ ğĞğ </h1></header>
@@ -14,8 +26,12 @@
         <textarea name="alfabe" id="alfabe" cols="30" rows="10" placeholder="Ğ Translator..."></textarea>
     </div>
     <div class="button-area">
+        <button><span class="material-symbols-outlined" onclick="copy_g()">content_copy</span></button>
+        <button id="g-clear" onclick="delete_g()"><span class="material-symbols-outlined">delete</span></button>
         <button id="g-to-a" onclick="a()">>></button>
         <button id="a-to-g" onclick="g()"><<</button>
+        <button id="a-clear" onclick="delete_a()"><span class="material-symbols-outlined">delete</span></button>
+        <button><span class="material-symbols-outlined" onclick="copy_a()">content_copy</span></button>
     </div>
 <script src="script.js"></script>
 </body>

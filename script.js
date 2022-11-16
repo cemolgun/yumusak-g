@@ -88,3 +88,16 @@ function a(){
 
     a_box.value = a_str;
 }
+
+function delete_g(){
+    g_box.value="";
+}
+function delete_a(){
+    a_box.value="";
+}
+function copy_g(){
+    navigator.clipboard.writeText(g_box.value);
+}
+function copy_a(){
+    navigator.clipboard.writeText(a_box.value);
+}
